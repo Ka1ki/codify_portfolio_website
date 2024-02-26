@@ -1,0 +1,84 @@
+.skills--container {
+  background-color: white;
+}
+
+.skills {
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.skills--card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill--card {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  cursor: pointer;
+
+  background-color: white;
+  box-shadow: 1px 7px 20px 4px rgba(248, 248, 248, 0.75);
+  border: 1px solid rgb(246, 246, 246);
+  border-radius: 10px;
+}
+
+.skill--card-head {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+
+  color: white;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+
+  font-size: 36px;
+}
+
+.skill--card-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.skill--card-subtitle {
+  font-size: 14px;
+  color: grey;
+
+  font-style: italic;
+}
+
+.skill--card-body {
+  flex-grow: 1;
+}
+
+.skill-info--container h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skill-info--container p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.milestone--container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.milestone {
+  flex-grow: 1;
+}
+
+.milestone--title {
+  font-size: 48px;
+  font-weight: bold;
+}

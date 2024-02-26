@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #80bcbd;
+  --accent-color: #ffb737;
+  --bg-color: #f4f4f4;
+}
+
+body {
+  font-family: "Sofia Sans", sans-serif;
+  color: darkslategrey;
+  background-color: var(--bg-color);
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

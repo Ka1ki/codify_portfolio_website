@@ -1,0 +1,86 @@
+.footer--content-container {
+  padding: 100px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer--content-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer--content-subtitle {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.footer--content-subtitle a {
+  color: #ff8080;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ff8080;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  width: 100%;
+  padding: 16px;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+.footer-form-title {
+  font-size: 24px;
+}
+
+.input-container {
+  padding: 10px 0;
+}
+
+.input-container label {
+  display: block;
+}
+
+.input-container input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  padding: 12px;
+
+  color: white;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+
+  text-transform: uppercase;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.social-handles {
+  text-align: center;
+  padding: 10px;
+}
+
+.social-handles a {
+  margin: 0 10px;
+  font-size: 32px;
+}

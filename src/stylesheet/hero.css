@@ -1,0 +1,70 @@
+.hero--container {
+  background: url("/src/images/hero_image.png") center center no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  max-height: 768px;
+  height: calc(100vh - 80px);
+}
+
+.hero--content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero--title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.hero .email {
+  width: fit-content;
+  padding-bottom: 2px;
+
+  color: #ff8080;
+  border-bottom: 1px solid #ff8080;
+
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hero .experience {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero .experience span:first-child {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.hero--award {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero .award-logo {
+  width: 64px;
+}
