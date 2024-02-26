@@ -4,6 +4,192 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalki - Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Navigaion bar -->
+    <nav class="navbar-container">
+      <div class="container">
+        <div class="primary-navbar">
+          <div class="left">
+            <img src="./src/images/logo.svg" class="logo" alt="" />
+          </div>
+
+          <div class="center link-container">
+            <a href="#services" class="active">SERVICES</a>
+            <a href="#">WORKS</a>
+            <a href="#">NOTES</a>
+            <a href="#">EXPERIENCE</a>
+          </div>
+
+          <div class="right">
+            <a href="#">
+              <span>+91 (123) 456 6778</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero--container">
+      <div class="hero container">
+        <div class="hero--content">
+          <h1 class="hero--title">
+            Hey There, <br />
+            I'm Kalki
+          </h1>
+          <a href="mailto:example@mail.com" class="email">example@mail.com</a>
+          <div class="experience">
+            <span>7</span>
+            <span
+              >YEARS <br />
+              EXPERIENCE
+            </span>
+          </div>
+        </div>
+
+        <div class="hero--content">
+          <div class="hero-subtitle">
+            I design beautiful &amp; simple things. <br />
+            And I love what I do.
+          </div>
+          <div class="hero--award">
+            <img src="./src/images/figma_logo.webp" class="award-logo" alt="" />
+            <p>
+              Figma Certified <br />
+              Front-End Developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My skills -->
+    <section class="skills--container">
+      <div class="container skills">
+        <div class="skills--card-container">
+          <div class="skill--card">
+            <div class="skill--card-head">
+              <i class="bx bxl-sketch"></i>
+            </div>
+            <div class="skill--card-body">
+              <h2 class="skill--card-title">Website Development</h2>
+              <p class="skill--card-subtitle">40+ Projects</p>
+            </div>
+          </div>
+
+          <div class="skill--card">
+            <div class="skill--card-head">
+              <i class="bx bxl-sketch"></i>
+            </div>
+            <div class="skill--card-body">
+              <h2 class="skill--card-title">Application Development</h2>
+              <p class="skill--card-subtitle">25+ Projects</p>
+            </div>
+          </div>
+
+          <div class="skill--card">
+            <div class="skill--card-head">
+              <i class="bx bxl-sketch"></i>
+            </div>
+            <div class="skill--card-body">
+              <h2 class="skill--card-title">Desktop Development</h2>
+              <p class="skill--card-subtitle">10+ Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-info--container">
+          <h1>What do I help?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            laboriosam hic similique ipsam, quisquam incidunt ullam amet odit,
+            rem explicabo.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A facilis
+            quam aspernatur.
+          </p>
+
+          <div class="milestone--container">
+            <div class="milestone">
+              <div class="milestone--title">105+</div>
+              <div class="milestone--subtitle">Projects Completed</div>
+            </div>
+            <div class="milestone">
+              <div class="milestone--title">50+</div>
+              <div class="milestone--subtitle">Happy Clients</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div class="footer--content-container">
+        <div class="footer--content">
+          <h1 class="footer--content-title">
+            Let's Make something <br />
+            amazing together.
+          </h1>
+          <p class="footer--content-subtitle">
+            Start by <a href="#" class="footer--action">saying hi</a>
+          </p>
+        </div>
+
+        <form action="" class="footer-form">
+          <h1 class="footer-form-title">Get in touch</h1>
+          <div class="input-container">
+            <label for="name">Name</label>
+            <input id="name" placeholder="Jhon Doe" type="text" required />
+          </div>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              placeholder="example@mail.com"
+              type="email"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message..."
+              required
+            ></textarea>
+          </div>
+
+          <button class="submit-btn">SUBMIT</button>
+        </form>
+      </div>
+
+      <hr />
+
+      <ul class="social-handles">
+        <a href="#">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-twitter"></i>
+        </a>
+      </ul>
+    </footer>
+  </body>
 </html>
